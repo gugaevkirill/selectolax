@@ -7,9 +7,6 @@ import platform
 import sys
 from setuptools import setup, find_packages, Extension
 
-with open('README.rst') as readme_file:
-    readme = readme_file.read()
-
 # Setup flags
 USE_STATIC = False
 USE_CYTHON = False
@@ -105,7 +102,7 @@ setup(
     name='selectolax',
     version='0.1.8',
     description="Fast HTML5 CSS selector.",
-    long_description=readme,
+    long_description='',
     author="Artem Golubin",
     author_email='me@rushter.com',
     url='https://github.com/rushter/selectolax',
